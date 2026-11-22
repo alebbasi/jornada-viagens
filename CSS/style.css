@@ -1,29 +1,31 @@
-/*Background
-botoes
-cores_textos*/
-
+@font-face {
+    font-family: "Montserrat";
+    src: url (../fontes/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    fonte-display: swap;
+}
 :root {
     --background-primary-colour: #ffffff;
-    --background-secundary-colour: #f5f5f5;
+    --background-secondary-colour: #f5f5f5;
     --background-tertiary-colour: #000000;
 
 
-    --button-primary-colour: #8F0101;
-    --button-secundary-colour: #B81515;
+    --primary-colour: #8F0101;
+    --secondary-colour: #B81515;
 
     --text-primary-colour: #222222;
-    --text-secundary-colour: #ffffff;
-    
+    --text-secondary-colour: #ffffff;
 
+    --titles-weight: 700; /*"Montserrat", sans-serif;*/
+    --text-weight: 400; /*"Montserrat", sans-serif;*/
+    --menu-text-weight: 500; /*"Montserrat", sans-serif;*/
 }
 
-*CSS RESET*/ 
+
+
+/*CSS RESET*/ 
 body, img, h1, p, fieldset,legend,label, input, select, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-h1 {
-    
-    color: var(--button-primary-colour);
 }
