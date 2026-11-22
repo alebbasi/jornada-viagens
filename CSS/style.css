@@ -1,31 +1,38 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url (../fontes/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    fonte-display: swap;
+  font-family: "Montserrat";
+  src: url (../fontes/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  fonte-display: swap;
 }
 :root {
-    --background-primary-colour: #ffffff;
-    --background-secondary-colour: #f5f5f5;
-    --background-tertiary-colour: #000000;
+  --background-primary-colour: #ffffff;
+  --background-secondary-colour: #f5f5f5;
+  --background-tertiary-colour: #000000;
 
+  --primary-colour: #8f0101;
+  --secondary-colour: #b81515;
 
-    --primary-colour: #8F0101;
-    --secondary-colour: #B81515;
+  --text-primary-colour: #222222;
+  --text-secondary-colour: #ffffff;
 
-    --text-primary-colour: #222222;
-    --text-secondary-colour: #ffffff;
-
-    --titles-weight: 700; /*"Montserrat", sans-serif;*/
-    --text-weight: 400; /*"Montserrat", sans-serif;*/
-    --menu-text-weight: 500; /*"Montserrat", sans-serif;*/
+  --titles-weight: 700; /*"Montserrat", sans-serif;*/
+  --text-weight: 400; /*"Montserrat", sans-serif;*/
+  --menu-text-weight: 500; /*"Montserrat", sans-serif;*/
 }
 
-
-
-/*CSS RESET*/ 
-body, img, h1, p, fieldset,legend,label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*CSS RESET*/
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
